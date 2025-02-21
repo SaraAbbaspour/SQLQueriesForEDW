@@ -25,6 +25,6 @@ WHERE
 			and t3.MedicationTakenDTS IS NOT NULL
 			and t1.PatientLocationDSC LIKE '%MGH%'
 			and t2.IdentityTypeID=67
-			and t2.PatientIdentityID in ('1396464')
+			and t2.PatientIdentityID in ('123456')
 	)
 	order by t6.HospitalAdmitDTS 
